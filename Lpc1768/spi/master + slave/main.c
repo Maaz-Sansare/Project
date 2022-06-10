@@ -1,4 +1,6 @@
-/* Baremetal Lpc1768 Spi Master + Slave*/
+/*
+	Baremetal Lpc1768 Spi Master + Slave
+*/
 /* To change Slave to Master change line no. 45 
    Set SPCR bit 5 to 1 for Master mode 
    Clear SPCR bit 5 for Slave mode */
