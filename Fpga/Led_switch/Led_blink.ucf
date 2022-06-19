@@ -1,0 +1,27 @@
+#Reference "https://docs.xilinx.com/v/u/en-US/ug361"
+
+# ===== CLOCK FROM EXTERNAL OSCILLATOR =====
+# NET <designator>  LOC = <pin location> | IOSTANDARD = < Low Voltage CMOS > | PERIOD = < period in freq >
+NET "clk"       LOC = P124 | IOSTANDARD = LVCMOS33 | PERIOD = 25MHz;
+
+# ===== LED DRIVER OUTPUTS =====
+# NET <designator>  LOC = <pin location> | IOSTANDARD = < Low Voltage CMOS > | SLEW = < slew rate can be "SLOW"(defualt) / "FAST" > | DRIVE = < drive strength>
+NET "led[7]"    LOC = P57   | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+NET "led[6]"    LOC = P58   | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+NET "led[5]"    LOC = P59   | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+NET "led[4]"    LOC = P60   | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+NET "led[3]"    LOC = P63   | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+NET "led[2]"    LOC = P64   | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+NET "led[1]"    LOC = P67   | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+NET "led[0]"    LOC = P68   | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+
+# ===== DP_SWITCH INPUT =====
+
+NET "switch[7]"     LOC = P30   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "switch[6]"     LOC = P31   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "switch[5]"     LOC = P32   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "switch[4]"     LOC = P33   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "switch[3]"     LOC = P35   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "switch[2]"     LOC = P42   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "switch[1]"     LOC = P46   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "switch[0]"     LOC = P53   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;

@@ -16,15 +16,16 @@ byte rec[sizeof(chartosend)];
 
 void loop (void) {
    digitalWrite(SS, LOW); // enable Slave Select
-   // send test string
-   SPI.transfer (var);
+   
    for (int i = 0 ; i < sizeof(chartosend) ; i++) {
       rec[i] = SPI.transfer (chartosend[i]);
    }
+   
    digitalWrite(SS, HIGH); // disable Slave Select
+   
    Serial.println("\n new data \n");
    for (int i = 0 ; i < 11 ; i++) {
       Serial.println(char(rec[i]));
    }
-   delay(5000);
+   delay(500);
 }

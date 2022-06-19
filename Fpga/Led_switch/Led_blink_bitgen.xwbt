@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\everything_git\Projects\Project\Fpga\Led_switch\Led_blink.ncd
+OUTFILE=E:\everything_git\Projects\Project\Fpga\Led_switch\Led_blink.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-4tq144
+WORKINGDIR=E:\everything_git\Projects\Project\Fpga\Led_switch
+LICENSE=WebPack
+USER_INFO=212373716_0_0_570

@@ -110,6 +110,7 @@ void spi_read(uint16_t* rx_data, uint8_t size){
     
     uint8_t ReadDone = 0 ;
     while(ReadDone < size){ 
+        LPC_SPI->SPDR = 0xFF;
         while(!(LPC_SPI->SPSR & (1 << 7)));   
         rx_data[ReadDone] = LPC_SPI->SPDR;
         ReadDone++;    
