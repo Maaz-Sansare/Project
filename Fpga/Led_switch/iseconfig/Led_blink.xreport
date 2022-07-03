@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-06-19T12:58:23</DateModified>
+  <DateModified>2022-06-26T13:50:08</DateModified>
   <ModuleName>Led_blink</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/everything_git/Projects/Project/Fpga/Led_switch/iseconfig/Led_blink.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/everything_git/Projects/Project/Fpga/Led_switch</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/everything_git/Projects/Project/Fpga/Led_switch\</ImplementationReportsDirectory>
   <DateInitialized>2022-06-19T12:58:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

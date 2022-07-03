@@ -1,0 +1,8 @@
+START:Strategy:2:MapPhysSynthesis
+REMOTE_PID:13988
+RUNNING:13988:8652:MapPhysSynthesis:map:Led_blink.ngd: -timing -ol high -xe n -register_duplication on -logic_opt on  -p xc3s50a-tq144-4 -o Led_blink_map.ncd  E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun2:bslLed_blink.pcf
+DONE:map:0
+RUNNING:13988:18640:MapPhysSynthesis:par:Led_blink_map.ncd: -ol high  -w Led_blink.ncd  E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun2:bslLed_blink.pcf
+STATUS:MapPhysSynthesis:par:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.08 secs 
+STATUS:MapPhysSynthesis:par:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:N/A:Time:15.08 secs 
+DONE:par:0

@@ -67,6 +67,11 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="led_blink.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="led_blink.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="led_blink.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="smartxplorer_results"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="smartxplorer_setup"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -77,6 +82,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1655625531" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1655625531">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1655625531" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3088176466835852413" xil_pn:start_ts="1655625531">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -102,12 +108,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1655626124" xil_pn:in_ck="121232383337678632" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-6575756500436941192" xil_pn:start_ts="1655626117">
+    <transform xil_pn:end_ts="1655663373" xil_pn:in_ck="121232383337678632" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4303368417468236932" xil_pn:start_ts="1655663360">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Led_blink.lso"/>
       <outfile xil_pn:name="Led_blink.ngc"/>
       <outfile xil_pn:name="Led_blink.ngr"/>
@@ -124,7 +128,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1655626129" xil_pn:in_ck="4790250464536121114" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8199129836016025516" xil_pn:start_ts="1655626124">
+    <transform xil_pn:end_ts="1655663697" xil_pn:in_ck="4790250464536121114" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8199129836016025516" xil_pn:start_ts="1655663689">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Led_blink.bld"/>
@@ -137,7 +141,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Led_blink.pcf"/>
       <outfile xil_pn:name="Led_blink_map.map"/>
@@ -153,6 +159,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Led_blink.ncd"/>
       <outfile xil_pn:name="Led_blink.pad"/>
       <outfile xil_pn:name="Led_blink.par"/>
@@ -168,6 +175,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Led_blink.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="led_blink.bgn"/>
@@ -180,9 +191,16 @@
     <transform xil_pn:end_ts="1655626141" xil_pn:in_ck="7180810143216816567" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1655626137">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Led_blink.twr"/>
       <outfile xil_pn:name="Led_blink.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1655663698" xil_pn:in_ck="2894856938765163723" xil_pn:name="TRAN_SmartXplorer" xil_pn:prop_ck="7797188902076507731" xil_pn:start_ts="1655663697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="smartxplorer_results"/>
+      <outfile xil_pn:name="smartxplorer_setup"/>
     </transform>
   </transforms>
 

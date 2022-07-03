@@ -1,0 +1,207 @@
+
+WARNING: The Trce option "-ucf" is either illegal or not supported by projNav and hence will not be added in the strategy file(maptimingextraeffort.xds) created by Smartxplorer.
+
+Command Line : 
+-------------
+map E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.ngd -timing -ol high -xe n -p xc3s50a-tq144-4 -o Led_blink_map.ncd E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.pcf
+
+Release 14.7 - Map P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Using target part "3s50atq144-4".
+Mapping design into LUTs...
+Writing file Led_blink_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 4 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+Phase 4.2  Initial Clock and IO Placement (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 7.8  Global Placement
+Phase 7.8  Global Placement (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Total REAL time to Placer completion: 5 secs 
+Total CPU  time to Placer completion: 2 secs 
+Running post-placement packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0   0%
+    Number of Slices containing unrelated logic:          0 out of       0   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Number of bonded IOBs:                 17 out of     108   15%
+
+Average Fanout of Non-Clock Nets:                0.89
+
+Peak Memory Usage:  4445 MB
+Total REAL time to MAP completion:  6 secs 
+Total CPU time to MAP completion:   2 secs 
+
+Mapping completed.
+See MAP report file "Led_blink_map.mrp" for details.
+
+Command Line : 
+-------------
+par E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.ngd -ol high -w Led_blink.ncd E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.pcf
+
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+
+
+Constraints file: E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.pcf.
+Loading device for application Rf_Device from file '3s50a.nph' in environment
+E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\.
+   "Led_blink" is an NCD, version 3.2, device xc3s50a, package tq144, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.42 2013-10-13".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                          17 out of 108    15%
+
+   Number of External Input IOBs                  9
+
+      Number of External Input IBUFs              9
+        Number of LOCed External Input IBUFs      9 out of 9     100%
+
+
+   Number of External Output IOBs                 8
+
+      Number of External Output IOBs              8
+        Number of LOCed External Output IOBs      8 out of 8     100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+WARNING:Par:288 - The signal clk_IBUF has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 8 unrouted;      REAL time: 2 secs 
+
+Phase  2  : 8 unrouted;      REAL time: 2 secs 
+
+Phase  3  : 1 unrouted;      REAL time: 2 secs 
+
+Phase  4  : 1 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Updating file: Led_blink.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 2 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 1
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  NET "clk_IBUF" PERIOD = 40 ns HIGH 50%    | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 2 secs 
+
+Peak Memory Usage:  4408 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 3
+Number of info messages: 0
+
+Writing design to file Led_blink.ncd
+
+
+
+PAR done!
+
+Command Line : 
+-------------
+trce E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.ngd E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.pcf -xml E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.twx -v 3 -s 4 -n 3 -fastpaths -ucf Led_blink.ucf -o E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.twr
+

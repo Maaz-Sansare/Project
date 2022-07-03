@@ -1,0 +1,5 @@
+START:Strategy:4:ParHighEffort2
+REMOTE_PID:5124
+RUNNING:5124:4504:ParHighEffort2:map:Led_blink.ngd: -cm area -t 2 -p xc3s50a-tq144-4 -o Led_blink_map.ncd  E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun4:bslLed_blink.pcf
+DONE:map:0
+RUNNING:5124:9948:ParHighEffort2:par:Led_blink_map.ncd: -ol high -t 2 -w Led_blink.ncd  E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun4:bslLed_blink.pcf

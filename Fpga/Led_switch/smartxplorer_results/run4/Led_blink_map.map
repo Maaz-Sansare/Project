@@ -1,0 +1,66 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'Led_blink'
+
+Design Information
+------------------
+Command Line   : map -cm area -t 2 -p xc3s50a-tq144-4 -o Led_blink_map.ncd
+Led_blink.ngd
+E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run4\Led
+_blink.pcf 
+Target Device  : xc3s50a
+Target Package : tq144
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.55 $
+Mapped Date    : Mon Jun 20 00:05:06 2022
+
+WARNING:Map:124 - The command line option -t can only be used when running in
+   timing mode (-timing option).  The option will be ignored.
+Mapping design into LUTs...
+Writing file Led_blink_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+Writing design file "Led_blink_map.ncd"...
+WARNING:PhysDesignRules:367 - The signal <clk_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    2
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0   0%
+    Number of Slices containing unrelated logic:          0 out of       0   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Number of bonded IOBs:                 17 out of     108   15%
+
+Average Fanout of Non-Clock Nets:                0.89
+
+Peak Memory Usage:  4418 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   1 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "Led_blink_map.mrp" for details.

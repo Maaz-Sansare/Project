@@ -1,0 +1,14 @@
+
+================================================================================
+Timing constraint: NET "clk_IBUF" PERIOD = 40 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+

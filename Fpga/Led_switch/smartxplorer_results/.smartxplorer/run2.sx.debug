@@ -1,0 +1,47 @@
+strategySpecString = ':oc:sqmap:sq:cl:sp:sq:sp:dstiming:sp:dsol:sphigh:sp:dsxe:spn:sp:dsregister_duplication:spon:sp:dslogic_opt:spon:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spE:clcl:clbsleverything_git:clbslProjects:clbslProject:clbslFpga:clbslLed_switch:sp:dsp:spxc3s50a:dstq144:ds4:sp:dsuc:spE:clcl:clbsleverything_git:clbslProjects:clbslProject:clbslFpga:clbslLed_switch:clbslLed_blink.ucf:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp4:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spLed_blink.twx:sp:dsucf:spLed_blink.ucf:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp2:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapPhysSynthesis:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqE:cl:bsl:bsleverything_git:bsl:bslProjects:bsl:bslProject:bsl:bslFpga:bsl:bslLed_switch:sq:cc'
+Xilinx Environment Variables:
+
+{'XILINX': 'E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\ISE\\'
+'PATH': 'E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\ISE\\\\lib\\nt64;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\ISE\\\\bin\\nt64;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\ISE\\bin\\nt64;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\ISE\\lib\\nt64;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\ISE\\..\\..\\..\\DocNav;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\PlanAhead\\bin;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK\\bin\\nt64;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK\\lib\\nt64;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\nt\\bin;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK\\gnu\\powerpc-eabi\\nt\\bin;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK\\gnuwin\\bin;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK\\gnu\\arm\\nt\\bin;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\linux_toolchain\\nt64_be\\bin;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\linux_toolchain\\nt64_le\\bin;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\common\\bin\\nt64;E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\common\\lib\\nt64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\mingw\\msys\\bin;C:\\mingw\\mingw32\\bin;E:\\arm\\10-2020-q4-major\\arm-none-eabi\\bin;E:\\arm\\10-2020-q4-major\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Users\\maazs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\maazs\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\maazs\\GitHubDesktop\\bin;D:\\Microsoft VS Code\\bin'
+'XILINX_PLANAHEAD': 'E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\PlanAhead'
+'XILINX_DSP': 'E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\ISE'
+'XILINX_EDK': 'E:\\everything_git\\xilinx\\xilinx_install_dir\\14.7\\ISE_DS\\EDK'}
+envDict = {}
+DESKTOP-BCJI7PD_1.stat:E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\.smartxplorer\.sx.keepAlive.DESKTOP-BCJI7PD_1
+INFO: total number of threads running this host None
+...searching for file: mapphyssynthesis.xds
+Creating XDS file ... mapphyssynthesis.xds
+###################################
+
+      <property name = "Map:Perform Timing-Driven Packing and Placement"
+               value = "true" />
+      <property name = "Map:Map Effort Level"
+               value = "High" />
+      <property name = "Map:Extra Effort"
+               value = "Normal" />
+      <property name = "Map:Register Duplication"
+               value = "On" />
+      <property name = "Map:Combinatorial Logic Optimization"
+               value = "true" />
+      <property name = "Place &amp; Route:Place &amp; Route Effort Level (Overall)"
+               value = "High" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Number of Paths in Error/Verbose Report"
+               value = "3" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Type"
+               value = "Verbose Report" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Change Device Speed To"
+               value = "-4" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Paths by Endpoint"
+               value = "3" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Fastest Path(s) in Each Constraint"
+               value = "true" />
+###################################
+launching map with options  -timing -ol high -xe n -register_duplication on -logic_opt on  -p xc3s50a-tq144-4 -o Led_blink_map.ncd  E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun2:bslLed_blink.pcf...
+runTask: map Led_blink.ngd -timing -ol high -xe n -register_duplication on -logic_opt on -p xc3s50a-tq144-4 -o Led_blink_map.ncd E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run2\Led_blink.pcf
+args = ['map', 'Led_blink.ngd', '-timing', '-ol', 'high', '-xe', 'n', '-register_duplication', 'on', '-logic_opt', 'on', '-p', 'xc3s50a-tq144-4', '-o', 'Led_blink_map.ncd', 'E:\\everything_git\\Projects\\Project\\Fpga\\Led_switch\\smartxplorer_results\\run2\\Led_blink.pcf']
+launching par with options  -ol high  -w Led_blink.ncd  E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun2:bslLed_blink.pcf...
+runTask: par Led_blink_map.ncd -ol high -w Led_blink.ncd E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run2\Led_blink.pcf
+args = ['par', 'Led_blink_map.ncd', '-ol', 'high', '-w', 'Led_blink.ncd', 'E:\\everything_git\\Projects\\Project\\Fpga\\Led_switch\\smartxplorer_results\\run2\\Led_blink.pcf']
+launching trce...
+runTask: trce E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run2\Led_blink.ncd E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run2\Led_blink.pcf -xml E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run2\Led_blink.twx -v 3 -s 4 -n 3 -fastpaths -ucf Led_blink.ucf -o E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run2\Led_blink.twr
+args = ['trce', 'E:\\everything_git\\Projects\\Project\\Fpga\\Led_switch\\smartxplorer_results\\run2\\Led_blink.ncd', 'E:\\everything_git\\Projects\\Project\\Fpga\\Led_switch\\smartxplorer_results\\run2\\Led_blink.pcf', '-xml', 'E:\\everything_git\\Projects\\Project\\Fpga\\Led_switch\\smartxplorer_results\\run2\\Led_blink.twx', '-v', '3', '-s', '4', '-n', '3', '-fastpaths', '-ucf', 'Led_blink.ucf', '-o', 'E:\\everything_git\\Projects\\Project\\Fpga\\Led_switch\\smartxplorer_results\\run2\\Led_blink.twr']

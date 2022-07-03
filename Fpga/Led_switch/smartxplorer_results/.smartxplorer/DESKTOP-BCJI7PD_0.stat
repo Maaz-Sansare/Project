@@ -1,0 +1,9 @@
+START:Strategy:1:MapTimingExtraEffort
+REMOTE_PID:5264
+RUNNING:5264:15964:MapTimingExtraEffort:map:Led_blink.ngd: -timing -ol high -xe n  -p xc3s50a-tq144-4 -o Led_blink_map.ncd  E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun1:bslLed_blink.pcf
+DONE:map:0
+RUNNING:5264:17428:MapTimingExtraEffort:par:Led_blink_map.ncd: -ol high  -w Led_blink.ncd  E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun1:bslLed_blink.pcf
+STATUS:MapTimingExtraEffort:par:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.09 secs 
+STATUS:MapTimingExtraEffort:par:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:N/A:Time:15.09 secs 
+DONE:par:0
+RUNNING:5264:11340:MapTimingExtraEffort:trce:E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run1\Led_blink.ncd:E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun1:bslLed_blink.pcf -xml E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun1:bslLed_blink.twx -v 3 -s 4 -n 3 -fastpaths   -ucf Led_blink.ucf -o E:cl:bsleverything_git:bslProjects:bslProject:bslFpga:bslLed_switch:bslsmartxplorer_results:bslrun1:bslLed_blink.twr

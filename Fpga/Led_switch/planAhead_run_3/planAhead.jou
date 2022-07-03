@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jun 20 22:56:34 2022
+# Process ID: 2188
+# Log file: E:/everything_git/Projects/Project/Fpga/Led_switch/planAhead_run_3/planAhead.log
+# Journal file: E:/everything_git/Projects/Project/Fpga/Led_switch/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/everything_git/Projects/Project/Fpga/Led_switch/pa.fromNetlist.tcl

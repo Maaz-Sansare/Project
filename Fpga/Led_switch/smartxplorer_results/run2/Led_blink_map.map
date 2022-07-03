@@ -1,0 +1,84 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'Led_blink'
+
+Design Information
+------------------
+Command Line   : map -timing -ol high -xe n -register_duplication on -logic_opt
+on -p xc3s50a-tq144-4 -o Led_blink_map.ncd Led_blink.ngd
+E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run2\Led
+_blink.pcf 
+Target Device  : xc3s50a
+Target Package : tq144
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.55 $
+Mapped Date    : Mon Jun 20 00:05:06 2022
+
+Mapping design into LUTs...
+Writing file Led_blink_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 4 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+Phase 4.2  Initial Clock and IO Placement (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 7.8  Global Placement
+Phase 7.8  Global Placement (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:e1c2a7e) REAL time: 5 secs 
+
+Total REAL time to Placer completion: 5 secs 
+Total CPU  time to Placer completion: 1 secs 
+Running physical synthesis...
+
+Physical synthesis completed.
+Running post-placement packing...
+WARNING:PhysDesignRules:367 - The signal <clk_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0   0%
+    Number of Slices containing unrelated logic:          0 out of       0   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Number of bonded IOBs:                 17 out of     108   15%
+
+Average Fanout of Non-Clock Nets:                0.89
+
+Peak Memory Usage:  4461 MB
+Total REAL time to MAP completion:  8 secs 
+Total CPU time to MAP completion:   4 secs 
+
+Mapping completed.
+See MAP report file "Led_blink_map.mrp" for details.

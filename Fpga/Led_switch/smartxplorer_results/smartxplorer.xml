@@ -1,0 +1,202 @@
+
+<smartXplorerReport>
+    <command>"E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe" -p xc3s50a-tq144-4 -b -wd smartxplorer_results Led_blink.ngd -to "-v 3 -s 4 -n 3 -fastpaths -xml Led_blink.twx -ucf Led_blink.ucf" -host_list hostlistfile.txt -max_runs 7
+    </command>
+    <programStatus>Running
+    </programStatus>
+    <programPID>17804
+    </programPID>
+    
+    <strategy name="MapTimingExtraEffort">
+        <strategyData>map  -timing -ol high -xe n ; par  -ol high 
+        </strategyData>
+        <xdsFile>maptimingextraeffort.xds
+        </xdsFile>
+        <host name="DESKTOP-BCJI7PD">
+            <hostData>Windows_NT, AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD, 4-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run1
+        </runIndex>
+        <status>Routing
+        </status>
+        <logFile>Led_blink_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <WorstCaseSlack>None
+        </WorstCaseSlack>
+        <Luts>0 (0%)
+	</Luts>
+	<SliceRegisters>0 (0%)
+	</SliceRegisters>
+	<runTime>0h 0m 15s
+        </runTime>
+    </strategy>
+    <strategy name="MapPhysSynthesis">
+        <strategyData>map  -timing -ol high -xe n -register_duplication on -logic_opt on ; par  -ol high 
+        </strategyData>
+        <xdsFile>mapphyssynthesis.xds
+        </xdsFile>
+        <host name="DESKTOP-BCJI7PD">
+            <hostData>Windows_NT, AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD, 4-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run2
+        </runIndex>
+        <status>Routing
+        </status>
+        <logFile>Led_blink_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <WorstCaseSlack>None
+        </WorstCaseSlack>
+        <Luts>0 (0%)
+	</Luts>
+	<SliceRegisters>0 (0%)
+	</SliceRegisters>
+	<runTime>0h 0m 14s
+        </runTime>
+    </strategy>
+    <strategy name="ParHighEffort1">
+        <strategyData>map  -cm area ; par  -ol high 
+        </strategyData>
+        <xdsFile>parhigheffort1.xds
+        </xdsFile>
+        <host name="DESKTOP-BCJI7PD">
+            <hostData>Windows_NT, AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD, 4-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run3
+        </runIndex>
+        <status>Routing
+        </status>
+        <logFile>Led_blink_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <WorstCaseSlack>None
+        </WorstCaseSlack>
+        <Luts>0 (0%)
+	</Luts>
+	<SliceRegisters>0 (0%)
+	</SliceRegisters>
+	<runTime>0h 0m 14s
+        </runTime>
+    </strategy>
+    <strategy name="ParHighEffort2">
+        <strategyData>map  -cm area -t 2; par  -ol high -t 2
+        </strategyData>
+        <xdsFile>parhigheffort2.xds
+        </xdsFile>
+        <host name="DESKTOP-BCJI7PD">
+            <hostData>Windows_NT, AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD, 4-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run4
+        </runIndex>
+        <status>Routing
+        </status>
+        <logFile>Led_blink_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <WorstCaseSlack>None
+        </WorstCaseSlack>
+        <Luts>0 (0%)
+	</Luts>
+	<SliceRegisters>0 (0%)
+	</SliceRegisters>
+	<runTime>0h 0m 13s
+        </runTime>
+    </strategy>
+    <strategy name="MapTiming1">
+        <strategyData>map  -timing -ol high ; par  -ol high 
+        </strategyData>
+        <xdsFile>maptiming1.xds
+        </xdsFile>
+        <host name="None">
+            <hostData>None
+            </hostData>
+        </host>
+        <runIndex>None
+        </runIndex>
+        <status>None
+        </status>
+        <logFile>Led_blink_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <WorstCaseSlack>None
+        </WorstCaseSlack>
+        <Luts>None
+	</Luts>
+	<SliceRegisters>None
+	</SliceRegisters>
+	<runTime>None
+        </runTime>
+    </strategy>
+    <strategy name="MapTiming2">
+        <strategyData>map  -timing -ol high -t 9; par  -ol high -t 9
+        </strategyData>
+        <xdsFile>maptiming2.xds
+        </xdsFile>
+        <host name="None">
+            <hostData>None
+            </hostData>
+        </host>
+        <runIndex>None
+        </runIndex>
+        <status>None
+        </status>
+        <logFile>Led_blink_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <WorstCaseSlack>None
+        </WorstCaseSlack>
+        <Luts>None
+	</Luts>
+	<SliceRegisters>None
+	</SliceRegisters>
+	<runTime>None
+        </runTime>
+    </strategy>
+    <strategy name="MapUseIOReg">
+        <strategyData>map  -timing -ol high -pr b ; par  -ol high 
+        </strategyData>
+        <xdsFile>mapuseioreg.xds
+        </xdsFile>
+        <host name="None">
+            <hostData>None
+            </hostData>
+        </host>
+        <runIndex>None
+        </runIndex>
+        <status>None
+        </status>
+        <logFile>Led_blink_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <WorstCaseSlack>None
+        </WorstCaseSlack>
+        <Luts>None
+	</Luts>
+	<SliceRegisters>None
+	</SliceRegisters>
+	<runTime>None
+        </runTime>
+    </strategy>
+    <bestStrategy>None
+    </bestStrategy>
+    <envVariables>
+        <env name="XILINX_PLANAHEAD"  value="E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\PlanAhead"/>
+        <env name="XILINX_DSP"  value="E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE"/>
+        <env name="XILINX_EDK"  value="E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK"/>
+        <env name="PATH"  value="E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\\lib\nt64;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\\bin\nt64;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\bin\nt64;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\lib\nt64;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\..\..\..\DocNav;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\PlanAhead\bin;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK\bin\nt64;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK\lib\nt64;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK\gnuwin\bin;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK\gnu\arm\nt\bin;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\common\bin\nt64;E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\common\lib\nt64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\mingw\msys\bin;C:\mingw\mingw32\bin;E:\arm\10-2020-q4-major\arm-none-eabi\bin;E:\arm\10-2020-q4-major\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\maazs\AppData\Local\Microsoft\WindowsApps;C:\Users\maazs\AppData\Local\GitHubDesktop\bin;C:\ProgramData\maazs\GitHubDesktop\bin;D:\Microsoft VS Code\bin"/>
+        <env name="XILINX"  value="E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\"/>
+        
+    </envVariables>
+</smartXplorerReport>

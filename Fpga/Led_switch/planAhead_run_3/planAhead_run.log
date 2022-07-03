@@ -1,0 +1,60 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/everything_git/Projects/Project/Fpga/Led_switch/pa.fromNetlist.tcl
+# create_project -name Led_switch -dir "E:/everything_git/Projects/Project/Fpga/Led_switch/planAhead_run_3" -part xc3s50atq144-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/everything_git/Projects/Project/Fpga/Led_switch/Led_blink.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/everything_git/Projects/Project/Fpga/Led_switch} }
+# set_property target_constrs_file "Led_blink.ucf" [current_fileset -constrset]
+Adding file 'E:/everything_git/Projects/Project/Fpga/Led_switch/Led_blink.ucf' to fileset 'constrs_1'
+# add_files [list {Led_blink.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s50atq144-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Led_blink.ngc ...
+WARNING:NetListWriters:298 - No output is written to Led_blink.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Led_blink.edif ...
+ngc2edif: Total memory usage is 4309732 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/Led_switch.data/cache/Led_blink_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/Led_switch.data/cache/Led_blink_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/hd_int_macros.edn
+Parsing EDIF File [E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/hd_int_macros.edn]
+Finished Parsing EDIF File [E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/hd_int_macros.edn]
+Loading clock regions from E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/xc3s50a/ClockRegion.xml
+Loading clock buffers from E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/xc3s50a/ClockBuffers.xml
+Loading package from E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/xc3s50a/tq144/Package.xml
+Loading io standards from E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/xc3s50a/tq144/SSORules.xml
+Loading list of drcs for the architecture : E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/drc.xml
+INFO: [Timing 38-77] Reading timing library E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/spartan3a-4.lib.
+INFO: [Timing 38-34] Done reading timing library E:/everything_git/xilinx/xilinx_install_dir/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/spartan3a-4.lib.
+Parsing UCF File [E:/everything_git/Projects/Project/Fpga/Led_switch/Led_blink.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net 'clk' [E:/everything_git/Projects/Project/Fpga/Led_switch/Led_blink.ucf:5]
+Finished Parsing UCF File [E:/everything_git/Projects/Project/Fpga/Led_switch/Led_blink.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 4530c4fe
+link_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 578.957 ; gain = 131.309
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Jun 20 22:57:18 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

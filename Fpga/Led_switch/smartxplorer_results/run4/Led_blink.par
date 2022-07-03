@@ -1,0 +1,150 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DESKTOP-BCJI7PD::  Mon Jun 20 00:05:15 2022
+
+par -ol high -t 2 -w Led_blink_map.ncd Led_blink.ncd
+E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run4\Led
+_blink.pcf 
+
+
+Constraints file: E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results\run4\Led_blink.pcf.
+Loading device for application Rf_Device from file '3s50a.nph' in environment
+E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\.
+   "Led_blink" is an NCD, version 3.2, device xc3s50a, package tq144, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.42 2013-10-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          17 out of 108    15%
+
+   Number of External Input IOBs                  9
+
+      Number of External Input IBUFs              9
+        Number of LOCed External Input IBUFs      9 out of 9     100%
+
+
+   Number of External Output IOBs                 8
+
+      Number of External Output IOBs              8
+        Number of LOCed External Output IOBs      8 out of 8     100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 2
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+WARNING:Par:288 - The signal clk_IBUF has no load.  PAR will not attempt to route this signal.
+
+Starting Placer
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+Phase 4.2  Initial Clock and IO Placement (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 7.8  Global Placement
+Phase 7.8  Global Placement (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:25fb43e) REAL time: 1 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:25fb43e) REAL time: 1 secs 
+
+Total REAL time to Placer completion: 1 secs 
+Total CPU  time to Placer completion: 1 secs 
+Writing design to file Led_blink.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 8 unrouted;      REAL time: 2 secs 
+
+Phase  2  : 8 unrouted;      REAL time: 2 secs 
+
+Phase  3  : 1 unrouted;      REAL time: 2 secs 
+
+Phase  4  : 1 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Updating file: Led_blink.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 2 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 1
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  NET "clk_IBUF" PERIOD = 40 ns HIGH 50%    | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.

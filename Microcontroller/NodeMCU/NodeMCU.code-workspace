@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "FreeRTOS_Counter",
+			"path": "FreeRTOS_Counter"
+		},
+		{
+			"name": "Wifi_Setup",
+			"path": "Wifi_Setup"
+		},
+		{
+			"name": "Led_Blink",
+			"path": "Led_Blink"
+		}
+	],
+	"settings": {}
+}

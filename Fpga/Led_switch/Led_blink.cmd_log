@@ -28,3 +28,5 @@ map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o Led_blin
 par -w -intstyle ise -ol high -t 1 Led_blink_map.ncd Led_blink.ncd Led_blink.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Led_blink.twx Led_blink.ncd -o Led_blink.twr Led_blink.pcf -ucf Led_blink.ucf 
 bitgen -intstyle ise -f Led_blink.ut Led_blink.ncd 
+xst -intstyle ise -ifn "E:/everything_git/Projects/Project/Fpga/Led_switch/Led_blink.xst" -ofn "E:/everything_git/Projects/Project/Fpga/Led_switch/Led_blink.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Led_blink.ucf -p xc3s50a-tq144-4 Led_blink.ngc Led_blink.ngd  

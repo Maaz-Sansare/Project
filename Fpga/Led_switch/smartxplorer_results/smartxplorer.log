@@ -1,0 +1,30 @@
+
+Release 14.7 SmartXplorer
+Copyright(c) 1995-2010 Xilinx, Inc. All rights reserved.
+"E:\everything_git\xilinx\xilinx_install_dir\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe" -p xc3s50a-tq144-4 -b -wd smartxplorer_results Led_blink.ngd -to "-v 3 -s 4 -n 3 -fastpaths -xml Led_blink.twx -ucf Led_blink.ucf" -host_list hostlistfile.txt -max_runs 7
+
+SmartXplorer Settings: 
+
+designName=E:\everything_git\Projects\Project\Fpga\Led_switch\Led_blink.ngd 
+write_dir=E:\everything_git\Projects\Project\Fpga\Led_switch\smartxplorer_results 
+host_list=E:\everything_git\Projects\Project\Fpga\Led_switch\hostlistfile.txt 
+part=xc3s50a-tq144-4 
+strategy_file=None 
+notify=None 
+source_dir=E:\everything_git\Projects\Project\Fpga\Led_switch 
+batch_mode=True 
+run_all_strategies=False 
+list_all_strategies=False 
+remote_command=rsh
+area_report="lut;slice_reg"
+power_options=off
+trce_options="-v 3 -s 4 -n 3 -fastpaths -xml Led_blink.twx -ucf Led_blink.ucf"
+max_runs=7
+
+Starting SmartXplorer...
+See file 'smartxplorer.html' for real-time report.
+
+
+Running SmartXplorer strategies...
+
+
